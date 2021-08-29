@@ -29,6 +29,9 @@
 		4065B32C26DBA6E000549B24 /* FakingIt.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4065B31F26DBA6DF00549B24 /* FakingIt.storyboard */; };
 		4065B32D26DBA6E000549B24 /* FakingItViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065B32026DBA6DF00549B24 /* FakingItViewController.swift */; };
 		4065B32F26DBAAAB00549B24 /* AppDelegateRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065B32E26DBAAAB00549B24 /* AppDelegateRouter.swift */; };
+		4065B33126DBAB5F00549B24 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065B33026DBAB5F00549B24 /* HomeCoordinator.swift */; };
+		4065B33326DBAEBB00549B24 /* PetAppointmentBuilderCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065B33226DBAEBB00549B24 /* PetAppointmentBuilderCoordinator.swift */; };
+		4065B33526DBB1FC00549B24 /* ModalNavigationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065B33426DBB1FC00549B24 /* ModalNavigationRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +59,9 @@
 		4065B31F26DBA6DF00549B24 /* FakingIt.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FakingIt.storyboard; sourceTree = "<group>"; };
 		4065B32026DBA6DF00549B24 /* FakingItViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakingItViewController.swift; sourceTree = "<group>"; };
 		4065B32E26DBAAAB00549B24 /* AppDelegateRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateRouter.swift; sourceTree = "<group>"; };
+		4065B33026DBAB5F00549B24 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		4065B33226DBAEBB00549B24 /* PetAppointmentBuilderCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetAppointmentBuilderCoordinator.swift; sourceTree = "<group>"; };
+		4065B33426DBB1FC00549B24 /* ModalNavigationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalNavigationRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				4065B2F526DBA67D00549B24 /* Coordinator.swift */,
+				4065B33026DBAB5F00549B24 /* HomeCoordinator.swift */,
+				4065B33226DBAEBB00549B24 /* PetAppointmentBuilderCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -139,6 +147,7 @@
 			children = (
 				4065B30226DBA6B400549B24 /* Router.swift */,
 				4065B32E26DBAAAB00549B24 /* AppDelegateRouter.swift */,
+				4065B33426DBB1FC00549B24 /* ModalNavigationRouter.swift */,
 			);
 			path = Routers;
 			sourceTree = "<group>";
@@ -352,6 +361,7 @@
 			files = (
 				4065B30326DBA6B400549B24 /* Router.swift in Sources */,
 				4065B2FB26DBA69000549B24 /* PainLevel.swift in Sources */,
+				4065B33326DBAEBB00549B24 /* PetAppointmentBuilderCoordinator.swift in Sources */,
 				4065B2FC26DBA69000549B24 /* VisitType.swift in Sources */,
 				4065B32726DBA6DF00549B24 /* SelectVisitTypeViewController.swift in Sources */,
 				4065B32126DBA6DF00549B24 /* HomeViewController.swift in Sources */,
@@ -363,6 +373,8 @@
 				4065B32426DBA6DF00549B24 /* PainLevelViewController.swift in Sources */,
 				4065B32F26DBAAAB00549B24 /* AppDelegateRouter.swift in Sources */,
 				4065B2E226DBA63600549B24 /* SceneDelegate.swift in Sources */,
+				4065B33526DBB1FC00549B24 /* ModalNavigationRouter.swift in Sources */,
+				4065B33126DBAB5F00549B24 /* HomeCoordinator.swift in Sources */,
 				4065B32926DBA6E000549B24 /* StoryboardInstantiable.swift in Sources */,
 				4065B2FD26DBA69000549B24 /* PetAppointment.swift in Sources */,
 			);

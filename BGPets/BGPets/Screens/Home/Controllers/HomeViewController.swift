@@ -30,26 +30,28 @@ import UIKit
 
 // MARK: - HomeViewControllerDelegate
 public protocol HomeViewControllerDelegate: class {
-  func homeViewControllerDidPressScheduleAppointment(_ viewController: HomeViewController)
+    func homeViewControllerDidPressScheduleAppointment(_ viewController: HomeViewController)
 }
 
 // MARK: - HomeViewController
 public class HomeViewController: UIViewController {
 
-  // MARK: - Instance Properties
-  public weak var delegate: HomeViewControllerDelegate?
+    // MARK: - Instance Properties
+    public weak var delegate: HomeViewControllerDelegate?
 
-  // MARK: - Actions
-  @IBAction internal func didPressScheduleAppointment(_ sender: AnyObject) {
-    delegate?.homeViewControllerDidPressScheduleAppointment(self)
-  }
+    // MARK: - Actions
+    @IBAction internal func didPressScheduleAppointment(_ sender: AnyObject) {
+        delegate?.homeViewControllerDidPressScheduleAppointment(self)
+    }
 }
 
 // MARK: - StoryboardInstantiable
 extension HomeViewController: StoryboardInstantiable {
-  public class func instantiate(delegate: HomeViewControllerDelegate) -> HomeViewController {
-    let viewController = instanceFromStoryboard()
-    viewController.delegate = delegate
-    return viewController
-  }
+    public static let storyboardFileName = "Main"
+
+    public class func instantiate(delegate: HomeViewControllerDelegate) -> HomeViewController {
+        let viewController = instanceFromStoryboard()
+        viewController.delegate = delegate
+        return viewController
+    }
 }
