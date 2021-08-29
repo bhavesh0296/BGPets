@@ -17,7 +17,7 @@
 		4065B30326DBA6B400549B24 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065B30226DBA6B400549B24 /* Router.swift */; };
 		4065B32126DBA6DF00549B24 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065B30826DBA6DF00549B24 /* HomeViewController.swift */; };
 		4065B32226DBA6DF00549B24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4065B30A26DBA6DF00549B24 /* LaunchScreen.storyboard */; };
-		4065B32326DBA6DF00549B24 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4065B30B26DBA6DF00549B24 /* Home.storyboard */; };
+		4065B32326DBA6DF00549B24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4065B30B26DBA6DF00549B24 /* Main.storyboard */; };
 		4065B32426DBA6DF00549B24 /* PainLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065B30E26DBA6DF00549B24 /* PainLevelViewController.swift */; };
 		4065B32526DBA6DF00549B24 /* SelectPainLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065B30F26DBA6DF00549B24 /* SelectPainLevelViewController.swift */; };
 		4065B32626DBA6DF00549B24 /* SelectPainLevel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4065B31126DBA6DF00549B24 /* SelectPainLevel.storyboard */; };
@@ -28,6 +28,7 @@
 		4065B32B26DBA6E000549B24 /* NoAppointmentRequired.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4065B31D26DBA6DF00549B24 /* NoAppointmentRequired.storyboard */; };
 		4065B32C26DBA6E000549B24 /* FakingIt.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4065B31F26DBA6DF00549B24 /* FakingIt.storyboard */; };
 		4065B32D26DBA6E000549B24 /* FakingItViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065B32026DBA6DF00549B24 /* FakingItViewController.swift */; };
+		4065B32F26DBAAAB00549B24 /* AppDelegateRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065B32E26DBAAAB00549B24 /* AppDelegateRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +44,7 @@
 		4065B30226DBA6B400549B24 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		4065B30826DBA6DF00549B24 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4065B30A26DBA6DF00549B24 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4065B30B26DBA6DF00549B24 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		4065B30B26DBA6DF00549B24 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		4065B30E26DBA6DF00549B24 /* PainLevelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PainLevelViewController.swift; sourceTree = "<group>"; };
 		4065B30F26DBA6DF00549B24 /* SelectPainLevelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectPainLevelViewController.swift; sourceTree = "<group>"; };
 		4065B31126DBA6DF00549B24 /* SelectPainLevel.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SelectPainLevel.storyboard; sourceTree = "<group>"; };
@@ -54,6 +55,7 @@
 		4065B31D26DBA6DF00549B24 /* NoAppointmentRequired.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NoAppointmentRequired.storyboard; sourceTree = "<group>"; };
 		4065B31F26DBA6DF00549B24 /* FakingIt.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FakingIt.storyboard; sourceTree = "<group>"; };
 		4065B32026DBA6DF00549B24 /* FakingItViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakingItViewController.swift; sourceTree = "<group>"; };
+		4065B32E26DBAAAB00549B24 /* AppDelegateRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,12 +88,12 @@
 		4065B2DE26DBA63600549B24 /* BGPets */ = {
 			isa = PBXGroup;
 			children = (
-				4065B30526DBA6DF00549B24 /* Screens */,
-				4065B30126DBA6AA00549B24 /* Routers */,
-				4065B2FE26DBA69400549B24 /* Resources */,
-				4065B2F726DBA68500549B24 /* Models */,
-				4065B2F426DBA66C00549B24 /* Coordinators */,
 				4065B2F326DBA66100549B24 /* AppDelegate */,
+				4065B2F426DBA66C00549B24 /* Coordinators */,
+				4065B2F726DBA68500549B24 /* Models */,
+				4065B2FE26DBA69400549B24 /* Resources */,
+				4065B30126DBA6AA00549B24 /* Routers */,
+				4065B30526DBA6DF00549B24 /* Screens */,
 			);
 			path = BGPets;
 			sourceTree = "<group>";
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				4065B30226DBA6B400549B24 /* Router.swift */,
+				4065B32E26DBAAAB00549B24 /* AppDelegateRouter.swift */,
 			);
 			path = Routers;
 			sourceTree = "<group>";
@@ -174,7 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				4065B30A26DBA6DF00549B24 /* LaunchScreen.storyboard */,
-				4065B30B26DBA6DF00549B24 /* Home.storyboard */,
+				4065B30B26DBA6DF00549B24 /* Main.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -331,7 +334,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4065B32B26DBA6E000549B24 /* NoAppointmentRequired.storyboard in Resources */,
-				4065B32326DBA6DF00549B24 /* Home.storyboard in Resources */,
+				4065B32326DBA6DF00549B24 /* Main.storyboard in Resources */,
 				4065B32226DBA6DF00549B24 /* LaunchScreen.storyboard in Resources */,
 				4065B30026DBA6A600549B24 /* Assets.xcassets in Resources */,
 				4065B32826DBA6E000549B24 /* SelectVisitType.storyboard in Resources */,
@@ -358,6 +361,7 @@
 				4065B32A26DBA6E000549B24 /* NoAppointmentRequiredViewController.swift in Sources */,
 				4065B32D26DBA6E000549B24 /* FakingItViewController.swift in Sources */,
 				4065B32426DBA6DF00549B24 /* PainLevelViewController.swift in Sources */,
+				4065B32F26DBAAAB00549B24 /* AppDelegateRouter.swift in Sources */,
 				4065B2E226DBA63600549B24 /* SceneDelegate.swift in Sources */,
 				4065B32926DBA6E000549B24 /* StoryboardInstantiable.swift in Sources */,
 				4065B2FD26DBA69000549B24 /* PetAppointment.swift in Sources */,
@@ -488,6 +492,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P5RKT2K7BV;
 				INFOPLIST_FILE = BGPets/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -495,7 +500,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = bhavesh.com.BGPets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -506,6 +511,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P5RKT2K7BV;
 				INFOPLIST_FILE = BGPets/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -513,7 +519,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = bhavesh.com.BGPets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
