@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4065B2E026DBA63600549B24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065B2DF26DBA63600549B24 /* AppDelegate.swift */; };
+		4065B2E226DBA63600549B24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065B2E126DBA63600549B24 /* SceneDelegate.swift */; };
+		4065B2F626DBA67D00549B24 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065B2F526DBA67D00549B24 /* Coordinator.swift */; };
+		4065B2FB26DBA69000549B24 /* PainLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065B2F826DBA69000549B24 /* PainLevel.swift */; };
+		4065B2FC26DBA69000549B24 /* VisitType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065B2F926DBA69000549B24 /* VisitType.swift */; };
+		4065B2FD26DBA69000549B24 /* PetAppointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065B2FA26DBA69000549B24 /* PetAppointment.swift */; };
+		4065B30026DBA6A600549B24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4065B2FF26DBA6A600549B24 /* Assets.xcassets */; };
+		4065B30326DBA6B400549B24 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065B30226DBA6B400549B24 /* Router.swift */; };
+		4065B32126DBA6DF00549B24 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065B30826DBA6DF00549B24 /* HomeViewController.swift */; };
+		4065B32226DBA6DF00549B24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4065B30A26DBA6DF00549B24 /* LaunchScreen.storyboard */; };
+		4065B32326DBA6DF00549B24 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4065B30B26DBA6DF00549B24 /* Home.storyboard */; };
+		4065B32426DBA6DF00549B24 /* PainLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065B30E26DBA6DF00549B24 /* PainLevelViewController.swift */; };
+		4065B32526DBA6DF00549B24 /* SelectPainLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065B30F26DBA6DF00549B24 /* SelectPainLevelViewController.swift */; };
+		4065B32626DBA6DF00549B24 /* SelectPainLevel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4065B31126DBA6DF00549B24 /* SelectPainLevel.storyboard */; };
+		4065B32726DBA6DF00549B24 /* SelectVisitTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065B31426DBA6DF00549B24 /* SelectVisitTypeViewController.swift */; };
+		4065B32826DBA6E000549B24 /* SelectVisitType.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4065B31626DBA6DF00549B24 /* SelectVisitType.storyboard */; };
+		4065B32926DBA6E000549B24 /* StoryboardInstantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065B31826DBA6DF00549B24 /* StoryboardInstantiable.swift */; };
+		4065B32A26DBA6E000549B24 /* NoAppointmentRequiredViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065B31B26DBA6DF00549B24 /* NoAppointmentRequiredViewController.swift */; };
+		4065B32B26DBA6E000549B24 /* NoAppointmentRequired.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4065B31D26DBA6DF00549B24 /* NoAppointmentRequired.storyboard */; };
+		4065B32C26DBA6E000549B24 /* FakingIt.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4065B31F26DBA6DF00549B24 /* FakingIt.storyboard */; };
+		4065B32D26DBA6E000549B24 /* FakingItViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065B32026DBA6DF00549B24 /* FakingItViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4065B2DC26DBA63600549B24 /* BGPets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BGPets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4065B2DF26DBA63600549B24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4065B2E126DBA63600549B24 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4065B2ED26DBA63700549B24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4065B2F526DBA67D00549B24 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		4065B2F826DBA69000549B24 /* PainLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PainLevel.swift; sourceTree = "<group>"; };
+		4065B2F926DBA69000549B24 /* VisitType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitType.swift; sourceTree = "<group>"; };
+		4065B2FA26DBA69000549B24 /* PetAppointment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetAppointment.swift; sourceTree = "<group>"; };
+		4065B2FF26DBA6A600549B24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4065B30226DBA6B400549B24 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		4065B30826DBA6DF00549B24 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4065B30A26DBA6DF00549B24 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4065B30B26DBA6DF00549B24 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		4065B30E26DBA6DF00549B24 /* PainLevelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PainLevelViewController.swift; sourceTree = "<group>"; };
+		4065B30F26DBA6DF00549B24 /* SelectPainLevelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectPainLevelViewController.swift; sourceTree = "<group>"; };
+		4065B31126DBA6DF00549B24 /* SelectPainLevel.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SelectPainLevel.storyboard; sourceTree = "<group>"; };
+		4065B31426DBA6DF00549B24 /* SelectVisitTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectVisitTypeViewController.swift; sourceTree = "<group>"; };
+		4065B31626DBA6DF00549B24 /* SelectVisitType.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SelectVisitType.storyboard; sourceTree = "<group>"; };
+		4065B31826DBA6DF00549B24 /* StoryboardInstantiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiable.swift; sourceTree = "<group>"; };
+		4065B31B26DBA6DF00549B24 /* NoAppointmentRequiredViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoAppointmentRequiredViewController.swift; sourceTree = "<group>"; };
+		4065B31D26DBA6DF00549B24 /* NoAppointmentRequired.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NoAppointmentRequired.storyboard; sourceTree = "<group>"; };
+		4065B31F26DBA6DF00549B24 /* FakingIt.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FakingIt.storyboard; sourceTree = "<group>"; };
+		4065B32026DBA6DF00549B24 /* FakingItViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakingItViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4065B2D926DBA63600549B24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4065B2D326DBA63600549B24 = {
+			isa = PBXGroup;
+			children = (
+				4065B2DE26DBA63600549B24 /* BGPets */,
+				4065B2DD26DBA63600549B24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4065B2DD26DBA63600549B24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4065B2DC26DBA63600549B24 /* BGPets.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4065B2DE26DBA63600549B24 /* BGPets */ = {
+			isa = PBXGroup;
+			children = (
+				4065B30526DBA6DF00549B24 /* Screens */,
+				4065B30126DBA6AA00549B24 /* Routers */,
+				4065B2FE26DBA69400549B24 /* Resources */,
+				4065B2F726DBA68500549B24 /* Models */,
+				4065B2F426DBA66C00549B24 /* Coordinators */,
+				4065B2F326DBA66100549B24 /* AppDelegate */,
+			);
+			path = BGPets;
+			sourceTree = "<group>";
+		};
+		4065B2F326DBA66100549B24 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				4065B2E126DBA63600549B24 /* SceneDelegate.swift */,
+				4065B2DF26DBA63600549B24 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		4065B2F426DBA66C00549B24 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				4065B2F526DBA67D00549B24 /* Coordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		4065B2F726DBA68500549B24 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4065B2F826DBA69000549B24 /* PainLevel.swift */,
+				4065B2FA26DBA69000549B24 /* PetAppointment.swift */,
+				4065B2F926DBA69000549B24 /* VisitType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4065B2FE26DBA69400549B24 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4065B2FF26DBA6A600549B24 /* Assets.xcassets */,
+				4065B2ED26DBA63700549B24 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4065B30126DBA6AA00549B24 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				4065B30226DBA6B400549B24 /* Router.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		4065B30526DBA6DF00549B24 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				4065B30626DBA6DF00549B24 /* Home */,
+				4065B30C26DBA6DF00549B24 /* PainLevel */,
+				4065B31226DBA6DF00549B24 /* VisitType */,
+				4065B31726DBA6DF00549B24 /* Protocols */,
+				4065B31926DBA6DF00549B24 /* NoAppointmentRequired */,
+				4065B31E26DBA6DF00549B24 /* FakingIt */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		4065B30626DBA6DF00549B24 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4065B30726DBA6DF00549B24 /* Controllers */,
+				4065B30926DBA6DF00549B24 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4065B30726DBA6DF00549B24 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4065B30826DBA6DF00549B24 /* HomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4065B30926DBA6DF00549B24 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4065B30A26DBA6DF00549B24 /* LaunchScreen.storyboard */,
+				4065B30B26DBA6DF00549B24 /* Home.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4065B30C26DBA6DF00549B24 /* PainLevel */ = {
+			isa = PBXGroup;
+			children = (
+				4065B30D26DBA6DF00549B24 /* Controllers */,
+				4065B31026DBA6DF00549B24 /* Views */,
+			);
+			path = PainLevel;
+			sourceTree = "<group>";
+		};
+		4065B30D26DBA6DF00549B24 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4065B30E26DBA6DF00549B24 /* PainLevelViewController.swift */,
+				4065B30F26DBA6DF00549B24 /* SelectPainLevelViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4065B31026DBA6DF00549B24 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4065B31126DBA6DF00549B24 /* SelectPainLevel.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4065B31226DBA6DF00549B24 /* VisitType */ = {
+			isa = PBXGroup;
+			children = (
+				4065B31326DBA6DF00549B24 /* Controllers */,
+				4065B31526DBA6DF00549B24 /* Views */,
+			);
+			path = VisitType;
+			sourceTree = "<group>";
+		};
+		4065B31326DBA6DF00549B24 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4065B31426DBA6DF00549B24 /* SelectVisitTypeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4065B31526DBA6DF00549B24 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4065B31626DBA6DF00549B24 /* SelectVisitType.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4065B31726DBA6DF00549B24 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4065B31826DBA6DF00549B24 /* StoryboardInstantiable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		4065B31926DBA6DF00549B24 /* NoAppointmentRequired */ = {
+			isa = PBXGroup;
+			children = (
+				4065B31A26DBA6DF00549B24 /* Controllers */,
+				4065B31C26DBA6DF00549B24 /* Views */,
+			);
+			path = NoAppointmentRequired;
+			sourceTree = "<group>";
+		};
+		4065B31A26DBA6DF00549B24 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4065B31B26DBA6DF00549B24 /* NoAppointmentRequiredViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4065B31C26DBA6DF00549B24 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4065B31D26DBA6DF00549B24 /* NoAppointmentRequired.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4065B31E26DBA6DF00549B24 /* FakingIt */ = {
+			isa = PBXGroup;
+			children = (
+				4065B31F26DBA6DF00549B24 /* FakingIt.storyboard */,
+				4065B32026DBA6DF00549B24 /* FakingItViewController.swift */,
+			);
+			path = FakingIt;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4065B2DB26DBA63600549B24 /* BGPets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4065B2F026DBA63700549B24 /* Build configuration list for PBXNativeTarget "BGPets" */;
+			buildPhases = (
+				4065B2D826DBA63600549B24 /* Sources */,
+				4065B2D926DBA63600549B24 /* Frameworks */,
+				4065B2DA26DBA63600549B24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BGPets;
+			productName = BGPets;
+			productReference = 4065B2DC26DBA63600549B24 /* BGPets.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4065B2D426DBA63600549B24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = Bhavesh;
+				TargetAttributes = {
+					4065B2DB26DBA63600549B24 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 4065B2D726DBA63600549B24 /* Build configuration list for PBXProject "BGPets" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4065B2D326DBA63600549B24;
+			productRefGroup = 4065B2DD26DBA63600549B24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4065B2DB26DBA63600549B24 /* BGPets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4065B2DA26DBA63600549B24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4065B32B26DBA6E000549B24 /* NoAppointmentRequired.storyboard in Resources */,
+				4065B32326DBA6DF00549B24 /* Home.storyboard in Resources */,
+				4065B32226DBA6DF00549B24 /* LaunchScreen.storyboard in Resources */,
+				4065B30026DBA6A600549B24 /* Assets.xcassets in Resources */,
+				4065B32826DBA6E000549B24 /* SelectVisitType.storyboard in Resources */,
+				4065B32C26DBA6E000549B24 /* FakingIt.storyboard in Resources */,
+				4065B32626DBA6DF00549B24 /* SelectPainLevel.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4065B2D826DBA63600549B24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4065B30326DBA6B400549B24 /* Router.swift in Sources */,
+				4065B2FB26DBA69000549B24 /* PainLevel.swift in Sources */,
+				4065B2FC26DBA69000549B24 /* VisitType.swift in Sources */,
+				4065B32726DBA6DF00549B24 /* SelectVisitTypeViewController.swift in Sources */,
+				4065B32126DBA6DF00549B24 /* HomeViewController.swift in Sources */,
+				4065B2F626DBA67D00549B24 /* Coordinator.swift in Sources */,
+				4065B32526DBA6DF00549B24 /* SelectPainLevelViewController.swift in Sources */,
+				4065B2E026DBA63600549B24 /* AppDelegate.swift in Sources */,
+				4065B32A26DBA6E000549B24 /* NoAppointmentRequiredViewController.swift in Sources */,
+				4065B32D26DBA6E000549B24 /* FakingItViewController.swift in Sources */,
+				4065B32426DBA6DF00549B24 /* PainLevelViewController.swift in Sources */,
+				4065B2E226DBA63600549B24 /* SceneDelegate.swift in Sources */,
+				4065B32926DBA6E000549B24 /* StoryboardInstantiable.swift in Sources */,
+				4065B2FD26DBA69000549B24 /* PetAppointment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4065B2EE26DBA63700549B24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4065B2EF26DBA63700549B24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4065B2F126DBA63700549B24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P5RKT2K7BV;
+				INFOPLIST_FILE = BGPets/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bhavesh.com.BGPets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4065B2F226DBA63700549B24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P5RKT2K7BV;
+				INFOPLIST_FILE = BGPets/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bhavesh.com.BGPets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4065B2D726DBA63600549B24 /* Build configuration list for PBXProject "BGPets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4065B2EE26DBA63700549B24 /* Debug */,
+				4065B2EF26DBA63700549B24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4065B2F026DBA63700549B24 /* Build configuration list for PBXNativeTarget "BGPets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4065B2F126DBA63700549B24 /* Debug */,
+				4065B2F226DBA63700549B24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4065B2D426DBA63600549B24 /* Project object */;
+}
